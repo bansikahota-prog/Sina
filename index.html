@@ -1,0 +1,245 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#eee5ff">
+
+    <title>A Birthday Surprise for SINA 💜</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Floating background decorations -->
+    <div class="background-hearts" aria-hidden="true">
+        <span>✧</span>
+        <span>♡</span>
+        <span>✦</span>
+        <span>♡</span>
+        <span>✧</span>
+        <span>✦</span>
+    </div>
+
+    <!-- Welcome section -->
+    <main class="main-container">
+
+        <section class="welcome-section">
+            <p class="eyebrow">A LITTLE MAGIC FOR SOMEONE SPECIAL</p>
+
+            <h1>Happy Birthday,<br>
+                <span>SINA!</span>
+            </h1>
+
+            <p class="welcome-text">
+                Today is your day, and I have
+                something special prepared for you.
+            </p>
+
+            <div class="welcome-decoration">୨୧ ✨ ୨୧</div>
+
+            <a href="#letter" class="primary-button">
+                Let's Begin ♡
+            </a>
+
+            <p class="tiny-text">Made with love, just for you</p>
+        </section>
+
+
+        <!-- Secret letter section -->
+        <section class="section-card" id="letter">
+
+            <p class="eyebrow">A LITTLE SECRET</p>
+
+            <h2>A Letter For You 💌</h2>
+
+            <p class="section-description">
+                There's something I've been wanting
+                to tell you. Open your little surprise!
+            </p>
+
+            <button class="envelope-button" id="envelopeButton"
+                aria-label="Open your secret birthday letter"
+                aria-expanded="false">
+
+                <span class="envelope">
+                    <span class="letter-paper">♡</span>
+                    <span class="envelope-flap"></span>
+                </span>
+
+                <span class="envelope-label">
+                    Tap to open your letter
+                </span>
+            </button>
+
+            <div class="letter-content" id="letterContent" hidden>
+
+                <h3>Dear SINA, 💜</h3>
+
+                <p>
+                    Happiest Birthday to one of the most
+                    special people in my life!
+                </p>
+
+                <p>
+                    I just want you to know how grateful
+                    I am to have you as my best friend.
+                    Thank you for all the laughter,
+                    silly conversations, unforgettable
+                    memories and little moments that
+                    make life beautiful.
+                </p>
+
+                <p>
+                    I hope this new chapter brings you
+                    endless happiness, success,
+                    beautiful opportunities and all
+                    the things your heart wishes for.
+                </p>
+
+                <p>
+                    Never stop being the wonderful person
+                    you are. Keep shining and keep smiling!
+                </p>
+
+                <h3>Lots of love, Bestie! ♡</h3>
+
+                <p class="signature">
+                    Forever your partner in crime ✨
+                </p>
+
+            </div>
+
+        </section>
+
+
+        <!-- Birthday cake section -->
+        <section class="section-card cake-section">
+
+            <p class="eyebrow">TIME TO CELEBRATE</p>
+
+            <h2>A Cake Just For You 🎂</h2>
+
+            <p class="section-description">
+                Make a wish and blow out your candles!
+            </p>
+
+            <div class="cake-container">
+
+                <div class="candles">
+
+                    <div class="candle">
+                        <div class="flame"></div>
+                    </div>
+
+                    <div class="candle">
+                        <div class="flame"></div>
+                    </div>
+
+                    <div class="candle">
+                        <div class="flame"></div>
+                    </div>
+
+                </div>
+
+                <div class="cake-top"></div>
+                <div class="cake-middle"></div>
+                <div class="cake-bottom"></div>
+                <div class="cake-plate"></div>
+
+            </div>
+
+            <p id="wishText" class="wish-text">
+                Close your eyes and make a wish! 🌙
+            </p>
+
+            <button class="primary-button" id="wishButton">
+                Blow Out Candles ✨
+            </button>
+
+        </section>
+
+
+        <!-- Final celebration section -->
+        <section class="section-card celebration-section">
+
+            <p class="eyebrow">THE BIG SURPRISE</p>
+
+            <h2>Ready for the Magic?</h2>
+
+            <p class="section-description">
+                Your final birthday surprise is waiting.
+            </p>
+
+            <div class="countdown-display" id="countdown">
+                ♡
+            </div>
+
+            <button class="primary-button" id="celebrateButton">
+                Start the Celebration 🎉
+            </button>
+
+        </section>
+
+
+        <footer>
+            <p>Designed with ♡ for SINA</p>
+            <p>May your days always sparkle! ✨</p>
+        </footer>
+
+    </main>
+
+
+    <!-- Full screen celebration overlay -->
+    <div class="celebration-overlay" id="celebrationOverlay"
+        aria-hidden="true">
+
+        <div class="celebration-content">
+
+            <p class="eyebrow">A SPECIAL MOMENT</p>
+
+            <div id="finalCountdown" class="final-countdown">
+                5
+            </div>
+
+            <div id="finalMessage" hidden>
+
+                <div class="big-stars">✦ ✧ ✦</div>
+
+                <h1>HAPPY BIRTHDAY!</h1>
+
+                <h2>DEAR SINA 💜</h2>
+
+                <p>
+                    You deserve all the happiness
+                    in this universe.
+                </p>
+
+                <p>
+                    Keep smiling, keep shining
+                    and keep being YOU!
+                </p>
+
+                <div class="final-heart">♡</div>
+
+                <p class="final-signature">
+                    With lots of love, your bestie!
+                </p>
+
+                <button class="primary-button" id="closeCelebration">
+                    Relive the Magic ♡
+                </button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
